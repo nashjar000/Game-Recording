@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: lightblue;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+p{
+    color: black;
+    font-size: small;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+form {
+    background-color: rgba(8, 20, 243, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    background-color: lightblue;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: white;
+    color: lightblue;
+    margin-top: 30%;
+}
+
+/* Styling for player entries */
+.player-entry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+/* Styling for player name input */
+.player-name {
+    flex: 1; /* Take up remaining space */
+    margin-right: 5px;
+}
+
+/* Styling for player score input */
+.player-score {
+    width: 70px; /* Adjust width as needed */
+}
+
+/* Styling for "Remove" button */
+.remove-player {
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Styling for recorded game entries */
+.recorded-game-entry {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Styling for game details */
+.game-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+/* Styling for game name */
+.game-name {
+    font-weight: bold;
+}
+
+/* Styling for player name in recorded games */
+.recorded-game-entry .player-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Styling for player score in recorded games */
+.recorded-game-entry .player-score {
+    font-weight: normal;
+}
+
+/* Styling for player entries */
+.player-entry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+/* Styling for player name input */
+.player-name {
+    flex: 1; /* Take up remaining space */
+    margin-right: 5px;
+}
+
+/* Styling for player score input */
+.player-score {
+    width: 70px; /* Adjust width as needed */
+}
+
+/* Styling for "Remove" button */
+.remove-player {
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Styling for recorded game entries */
+.recorded-game-entry {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Styling for game details */
+.game-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+/* Styling for game name */
+.game-name {
+    font-weight: bold;
+}
+
+/* Styling for player name in recorded games */
+.recorded-game-entry .player-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Styling for player score in recorded games */
+.recorded-game-entry .player-score {
+    font-weight: normal;
+}
+
+/* Styling for recorded game entries */
+.recorded-game-entry {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Styling for game table */
+.game-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Styling for table header */
+.game-table th {
+    background-color: rgba(8, 20, 243, 0.1);
+    padding: 8px;
+    text-align: left;
+}
+
+/* Styling for table rows */
+.game-table tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Styling for table cells */
+.game-table td {
+    padding: 8px;
+    background-color: rgba(127, 255, 212, 0.427);
+}
+
+/* Styling for the highest score */
+.highest-score {
+    color: #ffcc00; /* Add your desired color here */
+    font-weight: bold;
+    background-color: aqua;
+}
